@@ -1,6 +1,5 @@
 import calculator
 
-
 class TestCalculator:
 
     def test_addition(self):
@@ -14,7 +13,6 @@ class TestCalculator:
         assert calculator.subtract(10, 5) == 5
         assert calculator.subtract(-3, 5) == -8
         assert calculator.subtract(0, 0) == 0
-
 
     def test_multiplication(self):
         assert 100 == calculator.multiply(10, 10)
